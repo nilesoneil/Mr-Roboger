@@ -23,6 +23,15 @@ _A webpage for inputting numbers and getting a string back_
 * _get into your file exploreer and go to the top of the directory_
 * _open index.html in your browser_
 
+## Tests
+
+Describe: mrRobo()
+
+Test: "It should return "beep" if a input is a 1."
+Code:
+let (number);
+Expected Output: "beep"
+
 ## Known Bugs
 
 * _None_
