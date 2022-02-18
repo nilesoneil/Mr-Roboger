@@ -29,8 +29,13 @@ Describe: mrRobo()
 
 Test: "It should return "beep" if a input is a 1."
 Code:
-let (number);
+number = 1
 Expected Output: "beep"
+
+Test: "It should return "beep" if a input is has a digit with 1."
+Code: stringIndex.includes("10")
+Expected Output: "0, Beep, 2, 3, 4, 5, 6, 7, 8, 9, beep"
+
 
 ## Known Bugs
 

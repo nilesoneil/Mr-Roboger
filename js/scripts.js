@@ -18,8 +18,10 @@ return thisArray
 }
 
 $(document).ready(function() {
-  $("form#userInput").submit(function(event) {
+  $("form#yourInput").submit(function(event) {
     event.preventDefault();
-    const userInput = parseInt($(input#))
-    
+    const submittedResult = $("#result").val();
+    const  appendable = mrRobo(submittedResult);
+  });
+});
 
