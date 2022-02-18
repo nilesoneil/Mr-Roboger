@@ -17,7 +17,9 @@ for (let index = 0; index <= userInput; index++) {
 return thisArray
 }
 
-let x= mrRobo(23)
-console.log(x);
-
+$(document).ready(function() {
+  $("form#userInput").submit(function(event) {
+    event.preventDefault();
+    const userInput = parseInt($(input#))
+    
 
