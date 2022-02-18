@@ -1,20 +1,23 @@
-let thisArray = [];
-
-
-function mrRobo(userInput = i) {
-  thisArray.push(userInput)
-}
-
-let thisArray = [];
-const userInput = 6
+function mrRobo(userInput) {
+  let thisArray = [];
 for (let index = 0; index <= userInput; index++) {
+  let stringIndex = index.toString();
   let appendable = index
-  if (index === 1) {
+  if (stringIndex.includes("1")) {
     appendable = "beep";
   }
-  if (index === 2) {
+  if (stringIndex.includes("2")) {
     appendable = "boop";
+  }
+  if (stringIndex.includes("3")) {
+    appendable = "won't you be my neighbour";
   }
   thisArray.push(appendable);
 }
-console.log(thisArray)
+return thisArray
+}
+
+let x= mrRobo(23)
+console.log(x);
+
+
